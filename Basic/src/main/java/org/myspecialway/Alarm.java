@@ -56,7 +56,7 @@ public class Alarm {
         @Override
         public void onReceive(Context context, Intent intent) {
             Log.d("Peleg", "Alarm fired");
-            NotificationManager nm = new NotificationManager(context);
+            Notifications nm = new Notifications(context);
             ClassDetails cd = new ClassDetails("32","34","מדעים", "1");
             nm.showNavigationNotification(cd);
         }
