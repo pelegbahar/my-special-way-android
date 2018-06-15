@@ -126,6 +126,9 @@
             </intent-filter>
         </service>
 
+        <receiver android:name="org.myspecialway.Alarm$AlarmReceiver">
+        </receiver>
+
 
     </application>
 
